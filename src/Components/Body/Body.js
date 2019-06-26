@@ -17,8 +17,7 @@ class Intro extends Component {
 								<h1 className='myname'>Andrew Baker</h1>
 									<ul className='maker'>
 										<li className='things'>Front End Engineer</li>
-										<li className='things'>Woodworker</li>
-										<li className='things'>Blacksmith</li>
+										
 									
 									</ul>
 							</div>	

@@ -1,15 +1,15 @@
 import React from 'react'
 import './CodeCard.css'
 
-const CodeCard = () => {
+const CodeCard = ({name, logo}) => {
 	return (
 			<div className='card'>
 
-				<img className='logo' src='https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-19/288981919427_f45f04edd92902a96859_512.png'
+				<img className='logo' src={logo}
 				alt= '' />
 
 				<a className='link' href="https://github.com/abaker138" target='_blank'>
-					<h4 className='cardText'>GitHub Repo</h4>
+					<h4 className='cardText'>{name}</h4>
 				</a>
 
 
