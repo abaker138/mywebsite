@@ -1,0 +1,8 @@
+.resCall {
+	margin-left: 10vw;
+}
+
+.resCards {
+	display: flex;
+	flex-wrap: wrap;
+}

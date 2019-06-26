@@ -1,0 +1,33 @@
+.logo {
+	height: 7vh;
+	margin: 1vh;
+}
+
+
+.card {
+	-webkit-box-shadow: 10px 15px 13px -2px rgba(36,31,36,1);
+	-moz-box-shadow: 10px 15px 13px -2px rgba(36,31,36,1);
+	box-shadow: 10px 15px 13px -2px rgba(36,31,36,1);
+	width: 25vw;
+	background-color: black;
+	opacity: .7;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	transition: .6s ease-in-out;
+	margin: 4vw;
+}
+
+.card:hover {
+	transform: scale(1.15);
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+.cardText {
+	font-size: 2vh;
+}
